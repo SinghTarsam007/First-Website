@@ -50,47 +50,81 @@
 </head>
 
 <body>
-  <section id="Header">
-    <div class="My-Nav-Bar">
-      <ul>
-        <li><a href="#Header">Home</a></li>
-        <li><a href="#About me">About Me</a></li>
-        <li><a href="#Projects">Projects</a></li>
-        <li><a href="#contact-form">Contact</a></li>
-      </ul>
-    </div>
-  </section>
-  <section id="About me">
-    <div class="My-container">
-      <h2>About Me</h2>
-      <img src = "assets/images/Diwali-Rangoli-Design-4-644x362.jpg" alt="Rangoli image"/>
-      <p>Welcome to my Website<br/>
-      I am a Software Developer</p>
-      </div>
-  </section>
-  <section id="Projects">
-  <div class ="My-container">  
-   <h2>Projects</h2>
-   <div class="Project-Container">
-     <h3>My First Website</h3>
-   <p>We worked on this Project using Html,CSS,Javascript</p>
-   </div>
-  </div>
-  </section>
-  <section id="contact-form">
-   <div class= "My-container">
-     <h2><Contact-Form </h2>
-     <form>
-       <input type ="text" name="Username"placeholder="Your Name"/>
-       <input type ="email"name="Email" placeholder="email"/>
-       <input type ="text"name="Comments" placeholder="Comments"/>
-       <input type ="submit"name="submit"/>
-     </form>
-   </div>
-  </section>
-  <section id ="Footer">
-    <span><h2>Footer</h2></span>
-  </section>
+  
+
+      <section id="header">
+				<nav class="navbar navbar-expand-lg navbar-light bg-light">
+          <a class="navbar-brand" href="#">Sunny Gupta Website</a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="#about-me">About Me</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#projects">Projects</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contact-form">contact</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+			</section>
+		
+			<section id="about-me">
+				<div class="my-container">
+						<h2>About</h2>
+						<img src="assets/images/profile.jpg" alt="Sunny Gupta's Profile Picture" width="20%"/>
+						<p>Hello, welcome to my first website. <br/>
+							I am a software developer.</p>
+				</div>
+			</section>
+		
+			<section id="projects">
+
+				<div class="my-container">
+          <h2>Projects</h2>
+          <div class="projects-container">
+            <div class="project">
+              <h3>Scaler Edge Website</h3>
+              <p> We worked on this project using HTML, CSS & JS </p>
+            </div>
+            <div class="project">
+              <h3>Multi Factor Website for Smart Phones</h3>
+              <p> Cross device framework using React </p>
+            </div>
+            <div class="project">
+              <h3> Fab.com </h3>
+              <p> We built a world class e-Commerce website using vanilla JS. </p>
+            </div>
+          <div>
+        </div>
+
+			</section>
+		
+			<section id="contact-form">
+				<div class="my-container">
+          <h2>Contact Me</h2>
+          <form action="mailto:sunny@icodestartups.com" method="post" enctype="text/plain">
+            <input type="text" name="yourname" placeholder="Your Name" />
+            <input type="email" name="email" placeholder="Your Email" />
+            <input type="text" name="comment" placeholder="Your Comments" />
+            <button type="submit">Send</button>
+          </form>
+        </div>
+			</section>
+		
+			<section id="footer">
+				<h2>Footer</h2>
+        <p>
+          Copyright 2020 - Sunny. Built with love in a ScalerEdge Masterclass.
+        </p>
+			</section>
+
 
   <!-- Build your first site here -->
   <ul>
