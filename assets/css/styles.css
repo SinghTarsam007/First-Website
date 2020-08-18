@@ -4,4 +4,5 @@
 }
 .withbg{
   background-image: url(assets/images/image2.jpg);
+  background-size: cover;
 }
