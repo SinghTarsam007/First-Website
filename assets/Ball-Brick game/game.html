@@ -42,7 +42,7 @@ var bricks = [];
 for(var c=0; c<brickColumnCount; c++) {
   bricks[c] = [];
   for(var r=0; r<brickRowCount; r++) {
-    bricks[c][r] = { x: 0, y: 0, status: Math.ceil(Math.random() * 3)) };
+    bricks[c][r] = { x: 0, y: 0, status:  getRndInteger(1,4) };
     if(bricks[c][r].status==1)
      {
        endcsore++;
@@ -61,6 +61,10 @@ for(var c=0; c<brickColumnCount; c++) {
 document.addEventListener("keydown", keyDownHandler, false);
 document.addEventListener("keyup", keyUpHandler, false);
 document.addEventListener("mousemove", mouseMoveHandler, false);
+
+function getRndInteger(min,max) {
+  return Math.floor(Math.random() * (max - min) ) + min;
+}
 
 function keyDownHandler(e) {
     if(e.key == "Right" || e.key == "ArrowRight") {
