@@ -42,18 +42,18 @@ var bricks = [];
 for(var c=0; c<brickColumnCount; c++) {
   bricks[c] = [];
   for(var r=0; r<brickRowCount; r++) {
-    bricks[c][r] = { x: 0, y: 0, status:  getRndInteger(1,4) };
+    bricks[c][r] = { x: 0, y: 0, status:getRndInteger(1,4) };
     if(bricks[c][r].status==1)
      {
-       endcsore++;
+       endscore++;
      }
      if(bricks[c][r].status==2)
      {
-       endcsore+=2;
+       endscore+=2;
      }
      if(bricks[c][r].status==3)
      {
-       endcsore+=3;
+       endscore+=3;
      }
   }
 }
