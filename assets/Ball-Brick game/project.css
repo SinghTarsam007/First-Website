@@ -1,0 +1,24 @@
+.detail
+{
+	color:white;
+	margin-left: 10px;
+}
+#button{
+	background-color: yellow;
+  	border-radius: 20%;
+  	color: white;
+  	padding: 25px 45px;
+  	text-align: center;
+  	text-decoration: none;
+  	display: inline-block;
+  	font-size: 25px;
+  	font-family: sans-serif;
+}
+.intro{
+	color: skyblue;
+	text-align: center;
+	font-size: 50px;
+	font-family: sans-serif;
+	font-weight: bold;
+	text-decoration: underline;
+}
